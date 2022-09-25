@@ -1,0 +1,51 @@
+Question 1
+Complete definitions for key Git & GitHub terminology
+
+GIT WORKFLOW FUNDAMENTALS
+Working Directory
+- Folder in the Computer with files in the Pycharm account. For example, if you were in the Trees1 folder,
+you would see "C:\Windows\Trees1"
+
+Staging Area
+- Here we can prepare these files finely for a commit.  Apply any transformations to the data that are required
+before the load into the repository. And from there we can commit the changes to the local repository.
+
+Local Repo (head)
+- It is a Repo on the local computer in Pycharm . It contains branches, commits, and tags .
+Once we decide it's a time to share the changes, we push the changes from local repository to the remote repository
+
+Remote repo (master)
+Remote repositories are hosted on a server to share data with your teammates.
+Main branch that we have in the repository.
+
+
+WORKING DIRECTORY STATES:
+·        Staged
+When we're finished with all the modifications to our file, it moves to the staged state.
+The file is now ready to be added to the local git database, you have marked it to go into your next commit snapshot.
+·        Modified
+When any change to the file occurs, the state of the file changes from committed to modified.
+This means that the document has changed since its last committed version which is saved to our local database.
+We can see this state as 'we're currently working on this file, there will still be more changes'.
+·        Committed
+This state indicates that the file is safely stored in the local database.
+
+GIT COMMANDS:
+·        Git add
+Takes a modified file in your working directory and places the modified version in a staging area.
+·        Git commit
+The "commit" command is used to save your changes to the local repository.
+·      Git push
+The git push command is used to upload local repository content to a remote repository.
+·        Git fetch
+Git fetch is  used to download contents from a remote repository.
+But it doesn't integrate any of this new data into your working files.
+·        Git merge
+The "merge" command is used to integrate changes from another branch.
+·        Git pull
+Git pull  is used with a different goal in mind: to update your current HEAD branch with the latest changes
+from the remote server. This means that pull not only downloads new data.
+it also directly integrates it into your current working copy files.
+
+
+
